@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="barcode.reader" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+	<application>
+		<activity android:name="barcode.reader.ScanActivity" />
+	</application>
+	<uses-permission android:name="android.permission.CAMERA" />
+</manifest>
