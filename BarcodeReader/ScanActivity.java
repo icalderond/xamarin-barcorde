@@ -12,6 +12,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import com.abhi.barcode.frag.libv2.BarcodeFragment;
 import com.abhi.barcode.frag.libv2.IScanResultHandler;
 import com.abhi.barcode.frag.libv2.ScanResult;
+import android.widget.Toast;
 
 public class ScanActivity extends FragmentActivity implements IScanResultHandler {
 		
@@ -28,7 +29,7 @@ public class ScanActivity extends FragmentActivity implements IScanResultHandler
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.scan);
-		
+
 		fragment = (BarcodeFragment)getSupportFragmentManager().findFragmentById(R.id.Scanner);
 		fragment.setScanResultHandler(this);
 		fragment.setFrontCamera(true);

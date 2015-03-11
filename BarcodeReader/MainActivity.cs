@@ -1,5 +1,5 @@
 ﻿using System;
-
+using BarcodeReader;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -13,7 +13,6 @@ namespace BarcodeReader
     public class Activity1 : Activity
     {
         int count = 1;
-
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);

@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="BarcodeReader\BarcodeReader.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGOTMS430e5a0f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarcodeReader\Properties\AndroidManifest.xml">
+    <Files>
+      <File FileName="BarcodeReader\MainActivity.cs" Line="6" Column="6" />
+      <File FileName="BarcodeReader\Properties\AndroidManifest.xml" Line="12" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\israel.calderon\Documents\Projects\Xamarin_BarcodeReader\BarcodeReader\LoginActivity.cs" line="26" column="1" />
+      <Breakpoint file="C:\Users\israel.calderon\Documents\Projects\Xamarin_BarcodeReader\BarcodeReader\LoginActivity.cs" line="21" column="1" />
+      <Breakpoint file="C:\Users\israel.calderon\Documents\Projects\Xamarin_BarcodeReader\BarcodeReader\MainActivity.cs" line="21" column="1" />
+      <Breakpoint file="C:\Users\israel.calderon\Documents\Projects\Xamarin_BarcodeReader\BarcodeReader\MainActivity.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BarcodeReader AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
